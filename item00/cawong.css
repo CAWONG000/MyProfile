@@ -1,0 +1,43 @@
+.top
+{
+    color: white;
+    text-align: center;
+    font-size: 24;
+    text-shadow: 0px 5px 10px red;
+}
+
+.top:hover
+{
+    color: white;
+    text-align: center;
+    font-size: 24;
+    text-shadow: 0px 7px 5px black;
+}
+
+body
+{
+    background-image: url(self.jpeg);
+    background-position: right top;
+    margin-right: 100px;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-size: 200px;
+    
+}
+
+.intro
+{
+    margin-top: 150px;
+    width: 500px;
+    aspect-ratio: 1/ 1.2;
+    border-style: double;
+    border-color: rgb(103 130 240);
+    background-color: rgb(225, 231, 255);
+    border-width: 10px;
+}
+
+.intro:hover
+{
+    border-color: rgb(125 49 247);
+}
+
