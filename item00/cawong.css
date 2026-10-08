@@ -28,16 +28,44 @@ body
 .intro
 {
     margin-top: 150px;
-    width: 500px;
+    width: fit-content;
     aspect-ratio: 1/ 1.2;
     border-style: double;
     border-color: rgb(103 130 240);
     background-color: rgb(225, 231, 255);
-    border-width: 10px;
+    border-width: 10px; 
+}
+
+div.INtro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro:hover
 {
-    border-color: rgb(125 49 247);
+    border-color: blue;
+
 }
 
+.Intro
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.Intro {
+    margin-top: -5px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 80%;
+}
+
+h2.Intro
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0px 2px 2px darkblue;
+    color: cyan;
+}
